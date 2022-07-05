@@ -30,7 +30,7 @@ spec:
         ports:
         - containerPort: 80
         command: ["/bin/bash"]
-        args: ["-c", "echo v1 > /usr/share/nginx/html/index.html && nginx -g 'daemon off;'"]
+        args: ["-c", "echo v2 > /usr/share/nginx/html/index.html && nginx -g 'daemon off;'"]
         resources:
           requests:
             cpu: 10m
